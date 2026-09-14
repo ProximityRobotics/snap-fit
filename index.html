@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Simulation-to-Reality Hyperparameter Optimization of MPPI Controllers via Bayesian Optimization in NVIDIA Omniverse Isaac Sim">
+  <meta name="keywords" content="controller tuning, MPPI, Bayesian Optimization, Omniverse, Sim2Real">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simulation-to-Reality Hyperparameter Optimization of MPPI Controllers via Bayesian Optimization in NVIDIA Omniverse Isaac Sim</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.ico" type="image/x-icon">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Simulation-to-Reality Hyperparameter Optimization of MPPI Controllers via Bayesian Optimization in NVIDIA Omniverse Isaac Sim</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              Maximilian Ruhe<sup>1,2</sup>,</span>
+            <span class="author-block">
+              Kathrin Alba<sup>2</sup>,</span>
+            <span class="author-block">
+              Martin Kipfmüller<sup>1</sup>,
+            </span>
+            <span class="author-block">
+              Ilshat Mamaev<sup>2</sup>
+            </span>
+          </div>
+
+          <div class="is-size-6 publication-authors">
+            <span class="author-block"><sup>1</sup>Proximity Robotics & Automation GmbH,</span>
+            <span class="author-block"><sup>2</sup>University of applied Sciences Karlsruhe - Institute of Materials and Processes</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <!-- <span class="link-block">
+                <a href="https://0.0.0.0"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span> -->
+              <!-- <span class="link-block">
+                <a href="https://0.0.0.0"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span> -->
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <!--a href="https://cloud.proximityrobotics.com/s/YNtZ9RziewX8Ec3"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-video"></i-->
+                <iframe width="420" height="315"
+                  src="https://www.youtube.com/embed/WZZSp4Ei6dI?controls=0">
+                  </iframe> 
+                  </span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Autonomous mobile robots navigating dynamic environments require robust and efficient control strategies. Model Predictive Path Integral (MPPI) control offers flexibility and computational efficiency but demands precise tuning of multiple hyperparameters, traditionally conducted through heuristic methods. In this paper, we introduce an automated and systematic approach to MPPI hyperparameter optimization using Bayesian Optimization (BO) within a ROS2 and Nav2-based framework. By leveraging a high-fidelity digital twin implemented in NVIDIA Omniverse Isaac Sim, our method automates and accelerates hyperparameter tuning, significantly improving trajectory smoothness, reducing control effort, and improving navigation efficiency. Experimental validation on a real differential drive robot demonstrates strong consistency between simulation-optimized parameters and real-world performance, confirming the effectiveness of our simulation-to-reality approach. This work provides a practical and reproducible method for integrating BO with ROS2 and Nav2, enabling streamlined deployment and adaptive tuning of MPPI controllers in real-world robotics applications.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/video"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+<!-- Simulation‑Based MPPI Optimization section with three images -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Title & Text -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Simulation-Based MPPI Optimization</h2>
+        <div class="content has-text-justified">
+          <p>
+            We present a robust and reproducible framework for tuning Model Predictive Path Integral (MPPI) controllers using Bayesian Optimization (BO) in the ROS2 Navigation2 (Nav2) stack. The approach is based on a high-fidelity digital twin of a differential-drive mobile robot modeled in NVIDIA Omniverse Isaac Sim, enabling realistic and risk-free parameter optimization.
+          </p>
+          <p>
+            The framework allows automated tuning of core MPPI parameters—including batch size, control noise, and temperature—by minimizing a multi-objective cost function based on trajectory smoothness and goal-reaching efficiency. All experiments are conducted in simulation and directly transferred to the real robot with minimal effort, demonstrating strong sim-to-real consistency.
+          </p>
+          <p>
+            The simulation-driven BO loop minimizes manual tuning effort and accelerates deployment of MPPI controllers in real-world robotics applications.
+          </p>
+        </div>
+
+        <!-- Links -->
+        <!-- <div class="publication-links">
+          <span class="link-block">
+            <a href="https://proximityrobotics.github.io/OmniMPPI/"
+               class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                Robot icon
+                <svg class="svg-inline--fa fa-robot fa-w-20" aria-hidden="true" focusable="false"
+                     data-prefix="fas" data-icon="robot" role="img"
+                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                  <path fill="currentColor"
+                        d="M320 0c17.7 0 32 14.3 32 32v32h112c26.5 0 48 21.5 48 48v176h16c26.5 0 48 21.5 48 48v128c0 26.5-21.5 48-48 48H64c-35.3 0-64-28.7-64-64V336c0-26.5 21.5-48 48-48h16V112c0-26.5 21.5-48 48-48h112V32c0-17.7 14.3-32 32-32h128zm0 416a64 64 0 1 0 0-128 64 64 0 0 0 0 128zM176 176a40 40 0 1 0 0-80 40 40 0 0 0 0 80zm288 0a40 40 0 1 0 0-80 40 40 0 0 0 0 80z"></path>
+                </svg>
+              </span>
+              <span>Project Page</span>
+            </a>
+          </span>
+        </div> -->
+      </div>
+    </div>
+
+
+
+    <div class="columns is-centered">
+      <div class="column is-one-third has-text-centered">
+        <figure class="image is-4by3">
+          <img src="static/images/sim_real.png" alt="Simulation environment overview">
+        </figure>
+        <p class="is-size-7 has-text-grey">Figure&nbsp;1: Simulation environment in Omniverse.</p>
+      </div>
+      <div class="column is-one-third has-text-centered">
+        <figure class="image is-4by3">
+          <img src="static/images/pipeline.png" alt="Bayesian optimization convergence plot">
+        </figure>
+        <p class="is-size-7 has-text-grey">Figure&nbsp;2: BO convergence of MPPI parameters.</p>
+      </div>
+      <div class="column is-one-third has-text-centered">
+        <figure class="image is-4by3">
+          <img src="static/images/bayes_ten_iter.png" alt="Real robot trajectory validation">
+        </figure>
+        <p class="is-size-7 has-text-grey">Figure&nbsp;3: Real-world trajectory following.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>To be updated soon...</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered has-text-centered">
+      <a class="icon-link" href="https://github.com/ProximityRobotics" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-8">
+        <div class="content is-size-7">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+            <p>
+              Website code based on <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
